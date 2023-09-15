@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/Navbar.css'
+import '../../styles/navbar.css'
 import {NavLink} from 'react-router-dom'
 
 
@@ -16,7 +16,7 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link active text-white" to="/playlist"><strong>Play List</strong></NavLink>
                         </li>
-                        
+
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#"><strong>Link</strong></a>
                         </li>
