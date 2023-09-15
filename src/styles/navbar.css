@@ -1,0 +1,25 @@
+.nav-link {
+  background-color: #159a9c;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-inline: 10px;
+}
+
+.nav-link:hover {
+  background-color: #159a9c;
+  border-radius: 7px;
+}
+
+button {
+  background-color: #159a9c;
+  padding: 5px;
+  color: white;
+}
+
+.button {
+  border-radius: 7px solid #159a9c;
+}
+
+.navbar {
+  background-color: #002333;
+}
