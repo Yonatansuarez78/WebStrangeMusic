@@ -1,5 +1,5 @@
 button {
-    background-color: #159a9c;
+  background-color: #159a9c;
 }
 
 .button {
@@ -8,7 +8,88 @@ button {
   color: white;
 }
 
-img {
-    border-radius: 50%;
-    width: 60%;
+.images {
+  border-radius: 50%;
+  width: 70%;
+}
+
+/*Animaciones */
+
+.playstore .appstore .wuawei .efecto1 .efecto2 .efecto3 .efecto4 .efecto5 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.wuawei:hover {
+  transform: scale(1.2);
+}
+
+.appstore:hover {
+  transform: scale(1.2);
+}
+
+.playstore:hover {
+  transform: scale(1.2);
+}
+
+.efecto1 :hover {
+  transform: scale(1.2);
+}
+
+.efecto2 :hover {
+  transform: scale(1.2);
+}
+
+.efecto3 :hover {
+  transform: scale(1.2);
+}
+
+.efecto4 :hover {
+  transform: scale(1.2);
+}
+
+.efecto5 :hover {
+  transform: scale(1.2);
+}
+.wuawei {
+  width: 185px;
+  height: 55px;
+}
+
+/*==================================================================*/
+/* Fuentes */
+/*==================================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500;1,600&family=Overpass:wght@400;700&family=Poppins:wght@600&display=swap");
+
+.fond {
+  background: rgb(236, 252, 255);
+  background: linear-gradient(90deg,
+      rgba(236, 252, 255, 1) 0%,
+      rgba(251, 255, 255, 1) 56%);
+}
+
+
+
+
+.ilustracion {
+  margin-top: 64px;
+}
+
+.hello {
+  background-image: url("../assets/ilustraciones/hero-bg.png");
+  background-size: 100% 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .touch1 {
+    touch-action: manipulation;
+    zoom: 1;
+  }
+}
+
+.dark {
+  color: #242f51;
 }

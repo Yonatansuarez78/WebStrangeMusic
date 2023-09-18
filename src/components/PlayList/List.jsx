@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../styles/List.css"
 
 import badBunny from '../../img/img_canciones/badbunny.jfif'
 import Feid from '../../img/img_canciones/Feid.webp'
@@ -57,7 +58,7 @@ function List() {
                                                         </div>
                                                         <div class="modal-body">
                                                             <img src={badBunny} alt="BAD BUNNY"
-                                                                id="img_modal"></img>
+                                                                id="img_modal" className='img'></img>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-primary"
@@ -107,7 +108,7 @@ function List() {
                                                                 aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <img src={Feid} alt="FEID" id="img_modal"></img>
+                                                            <img src={Feid} alt="FEID" id="img_modal" className='img'></img>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-primary"
@@ -155,7 +156,7 @@ function List() {
                                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <img src={daddy} alt="FEID" id="img_modal"></img>
+                                                            <img src={daddy} alt="FEID" id="img_modal" className='img'></img>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>

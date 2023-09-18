@@ -4,6 +4,13 @@ import Navbar from '../Home/Navbar'
 import Footer from '../Home/Footer'
 import "../../styles/home.css"
 
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+
+import playstore from '../../img/img_downloads/google-play.png'
+import appstore from '../../img/img_downloads/app-store.png'
+import apk from '../../img/img_downloads/apk.png'
+import StrangeMusic from '../../img/img_components/StrangeMusic.png'
+
 function Home() {
     return (
         <>
@@ -12,104 +19,17 @@ function Home() {
                 <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src={logo}
-                            className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
+                            className="d-block mx-lg-auto img-fluid images" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></img>
                     </div>
                     <div className="col-lg-6">
                         <h1 className="display-5 fw-bold lh-1 mb-3">STRANGE_MUSIC</h1>
                         <p className="lead">La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible
                             permanecer en silencio</p>
-                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" className="button btn-lg px-4 me-md-2">Primary</button>
-                            <button type="button" className="button btn-lg px-4">Default</button>
-                        </div>
+                        <button type="button" className="button btn-lg px-4 me-md-2">Descargar Gratis</button>
                     </div>
                 </div>
             </div>
 
-            {/* Caracteristicas de la APP */}
-            <section className="py-1 touch1" id="features">
-                <div className="container-lg pt-2 mt-2">
-                    <div className="row align-items-center">
-                        <div
-                            className="col-md-4 col-lg-5 order-md-0  text-start mb-5 mb-md-0 conEmpresa"
-                            data-aos="fade-up"
-                        >
-                            <img
-                                className="img-fluid ilustracionEmpresa flotante"
-                                src={logo}
-                                style={{ maxWidth: "280px" }}
-                                alt=""
-                            ></img>
-                        </div>
-                        <div className="col-md-8 col-lg-7 px-sm-5 px-md-0 text-start">
-                            <h6 className="fw-bold  fs-2 lh-sm text-start dark">
-                                Caracteristicas de la
-                                <br />
-                                App STRANGE MUSIC
-                            </h6>
-                            <p className="my-4 text-secondary fs-6">
-                                STRANGE MUSIC conecta tu mundo con un mundo de colores musicales
-                                <br className="d-none d-xl-block" />
-                                siendo un reproductor que a travez de tus oidos te transporta y disfrutas de la música en cualquier lugar y en cualquier momento.
-                            </p>
-                            <div className="d-flex align-items-center mb-5">
-                                <div>
-                                    <img
-                                        className="img-fluid espaciosicons"
-                                        src={logo}
-                                        width="90"
-                                        alt=""
-                                    ></img>
-                                </div>
-                                <div className="px-4">
-                                    <h5 className="fw-bold text-danger">Biblioteca de música</h5>
-                                    <p className="my-4 text-secondary fs-6">
-                                        Te permite almacenar y organizar tu colección de música{" "}
-                                        <br className="d-none d-xl-block"></br> ya sea en formato digital o en streaming.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="d-flex align-items-center mb-5">
-                                <div>
-                                    <img
-                                        className="img-fluid "
-                                        src={logo}
-                                        width="90"
-                                        alt=""
-                                    ></img>
-                                </div>
-                                <div className="px-4">
-                                    <h5 className="fw-bold text-primary">Búsqueda y descubrimiento:</h5>
-                                    <p className="text-secondary fs-6">
-                                        Ofrece funciones de búsqueda que permitan a los usuarios{" "}
-                                        <br className="d-none d-xl-block"></br>encontrar fácilmente canciones, álbumes y artistas
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="d-flex align-items-center mb-5">
-                                <div>
-                                    <img
-                                        className="img-fluid "
-                                        src={logo}
-                                        width="90"
-                                        alt=""
-                                    ></img>
-                                </div>
-                                <div className="px-4">
-                                    <h5 className="fw-bold text-success">
-                                        Calidad de audio
-                                    </h5>
-                                    <p className="text-secondary fs-6">
-                                        Vive una experiencia de alta calidad
-                                        <br className="d-none d-xl-block"></br>con audios estandares y de alta definicion
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* fin section */}
 
             {/* Acerca de nosotros */}
             <section className="py-sm-4 fond  my-sm-2 py-md-4 my-md-5 touch1">
@@ -126,14 +46,12 @@ function Home() {
                                 ya sea en línea o sin conexión, de manera individual o compartida con amigos,
                                 y proporcionando herramientas para descubrir nueva música y conectarse con otros amantes de la música.
                             </p>
-
                         </div>
                         <div
                             className="col-md-5 order-md-0 text-center text-md-start pt-sm-5"
-                            data-aos="fade-up"
-                        >
+                            data-aos="fade-up">
                             <img
-                                className="img-fluid acercaImg my-md-5  flotante"
+                                className="img-fluid acercaImg my-md-5 images"
                                 src={logo}
                                 style={{ maxWidth: "400px" }}
                                 alt=""
@@ -146,7 +64,57 @@ function Home() {
 
 
 
+            {/* section descarga */}
+            <section className="pt-sm-3 mt-md-5 pt-sm-2 pt-md-5 touch1" id="descarga-con">
+                <div className="container mt-sm-3 mt-md-5 ">
+                    <div className="row align-items-center ">
+                        <div className="col-md-5 col-lg-5  order-md-1 text-center z-index-2 cta-image " data-aos="fade-up" >
+                            <img
+                                className="img-fluid mb-4 mb-md-0  ilustracion  flotante"
+                                src={StrangeMusic}
+                                style={{ maxWidth: "270px" }}
+                                alt=""
+                            ></img>
+                        </div>
+                        <div className="col-md-7 col-lg-7 text-center text-md-start">
+                            <h1 className="display-5 fw-bold lh-sm mt-md-8  dark">
+                                Descarg Strange Music
+                            </h1>
+                            <p className="my-4 fs-5 text-secondary">
+                                {" "}
+                                El auge de los dispositivos moviles transforma la forma en que
+                                consumimos informacion por completo y los mas importante del
+                                mundo, como facebook.
+                            </p>
 
+                            <div className="justify-content-center d-md-inline-block">
+                                <Link className="pe-2 pe-sm-3 pe-md-4" to={"https://play.google.com/store/games?hl=es_CO&gl=US&pli=1"} target="_blank">
+                                    <img
+                                        className="w-sm-50 w-md-50 playstore"
+                                        src={playstore}
+                                        alt=""></img>
+                                </Link>
+
+                                <Link className="pe-2 pe-sm-3 pe-md-4" to={"https://www.apple.com/co/app-store/"} target="_blank">
+                                    <img
+                                        className="w-sm-50 w-md-50 appstore"
+                                        src={appstore}
+                                        alt=""
+                                    ></img>
+                                </Link>
+                                <Link className="pe-2 pe-sm-3 pe-md-4 " to="https://drive.google.com/uc?export=download&id=14EDIH_jQU5pmdoqRUp6asxE8oDhSKOs7" target="_blank">
+                                    <img
+                                        className="w-sm-50 w-md-50 wuawei"
+                                        src={apk}
+                                        alt=""
+                                    ></img>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* fin section descarga */}
 
 
             <div class="container">
