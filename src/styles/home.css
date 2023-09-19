@@ -2,6 +2,10 @@ button {
   background-color: #159a9c;
 }
 
+.btn-descarga{
+  height: 50px;
+}
+
 .button {
   border-radius: 7px;
   border: #159a9c;
