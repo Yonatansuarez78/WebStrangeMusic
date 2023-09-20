@@ -1,9 +1,25 @@
 .section {
-    
 }
 
 .route {
     background-color: #fafafa;
     border-radius: 10px;
+}
+
+.contacto-container {
+    padding: 3%;
+}
+
+.icons {
+    color: #000;
+    width: 100px;
+}
+
+.lista {
+    list-style: none;
+}
+
+.li-icons {
+    
 }
     
