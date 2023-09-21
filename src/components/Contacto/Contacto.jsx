@@ -2,6 +2,8 @@ import React from 'react'
 import "../../styles/contacto.css"
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom';
+import { useState } from 'react'
+import Formulario from './Formulario'
 
 
 function Contacto() {
@@ -14,53 +16,8 @@ function Contacto() {
                             <div id="contact" className="box-shadow-full">
                                 <div className="row">
                                     <div className="col-md-6 contacto-container">
-                                        <div className="title-box-2">
-                                            <h5 className="title-left">CONTACTO</h5>
-                                        </div>
                                         <div>
-                                            <form
-                                                action="https://formspree.io/f/mzblpkvl"
-                                                method="POST"
-                                                id="contact-form"
-                                            >
-                                                <div className="form-group my-2">
-                                                    <label htmlFor="name" className="form-label fw-bolder">
-                                                        Nombre
-                                                    </label>
-                                                    <input
-                                                        className="form-control"
-                                                        type="text"
-                                                        id="name"
-                                                        name="name"
-                                                    />
-                                                </div>
-                                                <div className="form-group my-2">
-                                                    <label htmlFor="email" className="form-label fw-bolder">
-                                                        Correo
-                                                    </label>
-                                                    <input
-                                                        className="form-control"
-                                                        type="email"
-                                                        id="email"
-                                                        name="_replyto"
-                                                    />
-                                                </div>
-                                                <div className="form-group my-2">
-                                                    <label htmlFor="message" className="form-label fw-bolder">
-                                                        Mensaje
-                                                    </label>
-                                                    <textarea
-                                                        className="form-control"
-                                                        style={{ resize: 'none' }}
-                                                        id="message"
-                                                        name="message"
-                                                        rows="4"
-                                                    ></textarea>
-                                                </div>
-                                                <button className="btn btn-outline-info mt-2" type="button" style={{ width: '100px' }}>
-                                                    Enviar
-                                                </button>
-                                            </form>
+                                            <Formulario />
                                         </div>
                                     </div>
                                     <div className="col-md-6 contacto-container">
@@ -91,23 +48,23 @@ function Contacto() {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://github.com/Yonatansuarez78" target="_blank" >
-                                                        <i className="bi bi-github"></i>
+                                                    <a className='icons' href="https://www.instagram.com/yonatan_suarez78/" target="_blank" >
+                                                        <i className="bi bi-instagram"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://github.com/Yonatansuarez78" target="_blank" rel="noopener noreferrer">
-                                                        <i className="bi bi-github"></i>
+                                                    <a className='icons' href="https://www.instagram.com/yonatan_suarez78/" target="_blank" rel="noopener noreferrer">
+                                                        <i className="bi bi-twitter"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://github.com/Yonatansuarez78" target="_blank" rel="noopener noreferrer">
-                                                        <i className="bi bi-github"></i>
+                                                    <a className='icons' href="https://www.linkedin.com/in/yonatansuarez78/" target="_blank" rel="noopener noreferrer">
+                                                        <i className="bi bi-linkedin"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://github.com/Yonatansuarez78" target="_blank" rel="noopener noreferrer">
-                                                        <i className="bi bi-github"></i>
+                                                    <a className='icons' href="https://www.facebook.com/Yonatan.suarez08" target="_blank" rel="noopener noreferrer">
+                                                        <i className="bi bi-facebook"></i>
                                                     </a>
                                                 </li>
                                             </ul>
@@ -119,6 +76,7 @@ function Contacto() {
                     </div>
                 </div>
             </div>
+            <br></br>
             <footer>
                 <div className="container">
                     <div className="row">

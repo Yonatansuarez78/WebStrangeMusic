@@ -1,6 +1,10 @@
 .section {
 }
 
+.btn {
+    width: 20%;
+}
+
 .route {
     background-color: #fafafa;
     border-radius: 10px;
@@ -17,9 +21,21 @@
 
 .lista {
     list-style: none;
+    display: flex;
+    padding: 0;
 }
 
-.li-icons {
-    
+.lista li {
+    margin-right: 10px;
+    margin: 15px;
 }
-    
+
+.icons {
+    text-decoration: none;
+    color: #000;
+}
+
+.icons i {
+    font-size: 30px;
+    /* Ajusta el tamaño de los iconos según tu preferencia */
+}
