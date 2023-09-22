@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../styles/contacto.css"
+import "../../styles/contacto/contacto.css"
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import { useState } from 'react'

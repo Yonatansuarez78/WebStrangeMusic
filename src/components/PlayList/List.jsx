@@ -1,9 +1,9 @@
 import React from 'react'
-import "../../styles/List.css"
+import "../../styles/playList/playList.css"
 
-import badBunny from '../../img/img_canciones/badbunny.jfif'
-import Feid from '../../img/img_canciones/Feid.webp'
-import daddy from '../../img/img_canciones/daddy-yankee.jpg'
+import badBunny from '../../assets/img/img_canciones/badbunny.jfif'
+import Feid from '../../assets/img/img_canciones/Feid.webp'
+import daddy from '../../assets/img/img_canciones/daddy-yankee.jpg'
 
 function List() {
     return (

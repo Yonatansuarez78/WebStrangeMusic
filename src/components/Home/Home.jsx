@@ -1,16 +1,16 @@
 import React from 'react'
-import logo from '../../img/img_components/Logo.jpg'
-import Navbar from '../Home/Navbar'
-import Footer from '../Home/Footer'
+import logo from '../../assets/img/img_components/Logo.jpg'
+import Navbar from '../navbar/Navbar'
+import Footer from '../Footer/Footer'
 import Contacto from '../Contacto/Contacto'
-import "../../styles/home.css"
+import "../../styles/home/home.css"
 
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 
-import playstore from '../../img/img_downloads/google-play.png'
-import appstore from '../../img/img_downloads/app-store.png'
-import apk from '../../img/img_downloads/apk.png'
-import StrangeMusic from '../../img/img_components/StrangeMusic.png'
+import playstore from '../../assets/img/img_downloads/google-play.png'
+import appstore from '../../assets/img/img_downloads/app-store.png'
+import apk from '../../assets/img/img_downloads/apk.png'
+import StrangeMusic from '../../assets/img/img_components/StrangeMusic.png'
 
 function Home() {
     return (

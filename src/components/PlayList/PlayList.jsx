@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Home/Navbar'
-import Footer from '../Home/Footer'
+import Navbar from '../navbar/Navbar'
+import Footer from '../Footer/Footer'
 import List from './List'
 
 function PlayList() {
