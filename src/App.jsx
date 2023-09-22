@@ -1,6 +1,7 @@
 import './App.css'
 import Home from './components/Home/Home'
 import PlayList from './components/PlayList/PlayList'
+import Link from './components/Link/Link'
 import NotFound from './components/Notfound/NotFound'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/playlist' element={<PlayList/>} />
+        <Route path='/link' element={<Link />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

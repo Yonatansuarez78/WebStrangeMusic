@@ -18,7 +18,7 @@ function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link text-white font" href="#"><strong>Link</strong></a>
+                            <NavLink className="nav-link active text-white font" to="/link"><strong>Link</strong></NavLink>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle text-white font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
