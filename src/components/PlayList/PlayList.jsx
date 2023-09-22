@@ -8,6 +8,22 @@ function PlayList() {
     <div>
       
       <Navbar />
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Artistas Mas Sonados</h1>
+            <p class="lead text-muted">Aqui te mostraremos los artistas mas escuchados dentro de nuestra
+              plataforma STRANGE_MUSIC</p>
+            <p>
+              <a href="#" class="btn btn-primary m-1">Top Semanal</a>
+              <a href="#" class="btn btn-secondary m-1">Top Mensual</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <List />
       <List />
 
       <div class="container">
@@ -27,6 +43,7 @@ function PlayList() {
 
         </footer>
       </div>
+
       <Footer />
     </div>
   )
