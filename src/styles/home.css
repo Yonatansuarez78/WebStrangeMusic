@@ -58,12 +58,6 @@ button {
   width: 185px;
   height: 55px;
 }
-
-/*==================================================================*/
-/* Fuentes */
-/*==================================================================*/
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500;1,600&family=Overpass:wght@400;700&family=Poppins:wght@600&display=swap");
-
 .fond {
   background: rgb(236, 252, 255);
   background: linear-gradient(90deg,
@@ -95,5 +89,5 @@ button {
 }
 
 .dark {
-  color: #242f51;
+  color: #000000;
 }

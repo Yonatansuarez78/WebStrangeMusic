@@ -40,7 +40,7 @@ function Home() {
                             <h6 className="fw-bold display-6 dark lh-sm m-3">
                                 Acerca de Nosotros
                             </h6>
-                            <p className="my-4  pe-xl-5 fs-6 font text-secondary ">
+                            <p className="lead">
                                 {" "}
                                 STRANGE MUSIC es una aplicación que  busca ofrecer una experiencia de escucha enriquecedora que se adapte a los gustos y preferencias
                                 musicales de cada usuario, permitiéndoles disfrutar de la música en cualquier momento y en cualquier lugar,
@@ -81,7 +81,7 @@ function Home() {
                             <h1 className="display-5 fw-bold lh-sm mt-md-8  dark">
                                 Descarga Strange Music
                             </h1>
-                            <p className="my-4 fs-5 text-secondary">
+                            <p className="lead">
                                 {" "}
                                 El auge de los dispositivos moviles transforma la forma en que
                                 consumimos informacion por completo y los mas importante del

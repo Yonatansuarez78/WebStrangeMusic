@@ -22,7 +22,7 @@ function Contacto() {
                                     </div>
                                     <div className="col-md-6 contacto-container">
                                         <div className="title-box-2 pt-4 pt-md-0">
-                                            <h5 className="title-left">Politicas de seguridad</h5>
+                                            <h5 className="title-left font">Politicas de seguridad</h5>
                                         </div>
                                         <div className="more-info">
                                             <p className="lead">
@@ -82,7 +82,7 @@ function Contacto() {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="copyright-box">
-                                <p className="copyright">
+                                <p className="copyright font">
                                     &copy; <strong><span>STRANGE MUSIC</span></strong>. Todos Los Derechos Reservados
                                 </p>
                                 <div className="credits"></div>
