@@ -13,6 +13,13 @@ import apk from '../../assets/img/img_downloads/apk.png'
 import StrangeMusic from '../../assets/img/img_components/StrangeMusic.png'
 
 function Home() {
+
+    function descargaApp(){
+        const section = document.getElementById('descargaApp');
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
     return (
         <>
             <Navbar />
@@ -26,7 +33,7 @@ function Home() {
                         <h1 className="display-5 fw-bold lh-1 mb-3">STRANGE_MUSIC</h1>
                         <p className="lead">La música expresa lo que no puede ser dicho y aquello sobre lo que es imposible
                             permanecer en silencio</p>
-                        <button type="button" className="button btn-lg px-4 me-md-2 btn-descarga">Descargar Gratis</button>
+                        <button type="button" className="button btn-lg px-4 me-md-2 btn-descarga" onClick={descargaApp}>Descargar Gratis</button>
                     </div>
                 </div>
             </div>
@@ -66,7 +73,7 @@ function Home() {
 
 
             {/* section descarga */}
-            <section className="pt-sm-3 mt-md-5 pt-sm-2 pt-md-5">
+            <section className="pt-sm-3 mt-md-5 pt-sm-2 pt-md-5" id='descargaApp'>
                 <div className="container mt-sm-3 mt-md-5 ">
                     <div className="row align-items-center ">
                         <div className="col-md-5 col-lg-5  order-md-1 text-center z-index-2 cta-image " data-aos="fade-up" >
