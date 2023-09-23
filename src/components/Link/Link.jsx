@@ -3,9 +3,11 @@ import Navbar from "../navbar/Navbar";
 import Footer from "../Footer/Footer";
 
 import "../../styles/Link/link.css";
+import Ozuna from '../../assets/img/img_canciones/Ozuna.jpg'
 
 function Link() {
   return (
+    
     <div className="App">
       <Navbar />
 
@@ -36,7 +38,9 @@ function Link() {
                   height: "300px",
                   borderRadius: "21px 21px 0 0",
                 }}
-              ></div>
+              >
+                <img>{Ozuna}</img>
+              </div>
             </div>
           </div>
 
