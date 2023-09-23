@@ -6,7 +6,7 @@ import List from './List'
 function PlayList() {
   return (
     <div>
-      
+
       <Navbar />
 
       <section class="py-5 text-center container">
@@ -36,9 +36,9 @@ function PlayList() {
           </div>
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/YonatanPechene"><i class="bi bi-twitter"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/yonatan_suarez78/"><i class="bi bi-instagram"></i></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/Yonatan.suarez08/"><i class="bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/StrangeMusicOf"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/strangemusicoficial/"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=61551636999398"><i class="bi bi-facebook"></i></a></li>
           </ul>
 
         </footer>

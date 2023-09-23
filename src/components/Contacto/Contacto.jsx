@@ -30,7 +30,7 @@ function Contacto() {
                                             </p>
                                             <ul className="list-ico">
                                                 <li>
-                                                    <span className="ion-email"></span>Yonatansuarez78@gmail.com
+                                                    <span className="ion-email"></span>Strangemusicoficial@gmail.com
                                                 </li>
                                                 <li>
                                                     <span className="ion-ios-telephone"></span>+ 57 3182268916
@@ -42,18 +42,13 @@ function Contacto() {
                                         </div>
                                         <div className="socials">
                                             <ul className='lista'>
-                                                <li className=''>
-                                                    <a className='icons' href="https://github.com/Yonatansuarez78" target="_blank" >
-                                                        <i className="bi bi-github"></i>
-                                                    </a>
-                                                </li>
                                                 <li>
-                                                    <a className='icons' href="https://www.instagram.com/yonatan_suarez78/" target="_blank" >
+                                                    <a className='icons' href="https://www.instagram.com/strangemusicoficial/" target="_blank" >
                                                         <i className="bi bi-instagram"></i>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://www.instagram.com/yonatan_suarez78/" target="_blank" rel="noopener noreferrer">
+                                                    <a className='icons' href="https://twitter.com/StrangeMusicOf" target="_blank" rel="noopener noreferrer">
                                                         <i className="bi bi-twitter"></i>
                                                     </a>
                                                 </li>
@@ -63,7 +58,7 @@ function Contacto() {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a className='icons' href="https://www.facebook.com/Yonatan.suarez08" target="_blank" rel="noopener noreferrer">
+                                                    <a className='icons' href="https://www.facebook.com/profile.php?id=61551636999398" target="_blank" rel="noopener noreferrer">
                                                         <i className="bi bi-facebook"></i>
                                                     </a>
                                                 </li>

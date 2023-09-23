@@ -8,7 +8,7 @@ import Gilberto from '../../assets/img/img_canciones/Gilberto-santarosa.jpg'
 
 function Link() {
   return (
-    
+
     <div className="App">
       <Navbar />
 
@@ -77,7 +77,7 @@ function Link() {
               class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
             >
               <svg class="bi" width="30" height="24">
-                <use xlink:href="#bootstrap" />
+                <use xlink: href="#bootstrap" />
               </svg>
             </a>
             <span class="mb-3 mb-md-0 text-body-secondary">
@@ -86,30 +86,9 @@ function Link() {
           </div>
 
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://twitter.com/YonatanPechene"
-              >
-                <i class="bi bi-twitter"></i>
-              </a>
-            </li>
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://www.instagram.com/yonatan_suarez78/"
-              >
-                <i class="bi bi-instagram"></i>
-              </a>
-            </li>
-            <li class="ms-3">
-              <a
-                class="text-body-secondary"
-                href="https://www.facebook.com/Yonatan.suarez08/"
-              >
-                <i class="bi bi-facebook"></i>
-              </a>
-            </li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/StrangeMusicOf"><i class="bi bi-twitter"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/strangemusicoficial/"><i class="bi bi-instagram"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=61551636999398"><i class="bi bi-facebook"></i></a></li>
           </ul>
         </footer>
       </div>

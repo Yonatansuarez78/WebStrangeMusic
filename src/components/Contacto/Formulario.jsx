@@ -36,7 +36,7 @@ const Formulario = () => {
 
         try {
             setEnviando(true);
-            const response = await axios.post('https://formspree.io/f/mzblpkvl', formularioData);
+            const response = await axios.post('https://formspree.io/f/xknlqyov', formularioData);
             console.log('Formulario enviado con éxito', response.data);
             setFormularioData({
                 name: '',
@@ -65,7 +65,7 @@ const Formulario = () => {
             <div class="title-box-2">
                 <h5 class="title-left">CONTACTO</h5>
             </div>
-            <form action="https://formspree.io/f/mzblpkvl" method="POST" id="contact-form" onSubmit={handleSubmit}>
+            <form action="https://formspree.io/f/xknlqyov" method="POST" id="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group my-2">
                     <label htmlFor="name" className='form-label fw-bolder'>Nombre:</label>
                     <input className="form-control"
