@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 
 import "../../styles/Link/link.css";
 import Ozuna from '../../assets/img/img_canciones/Ozuna.jpg'
+import Gilberto from '../../assets/img/img_canciones/Gilberto-santarosa.jpg'
 
 function Link() {
   return (
@@ -39,7 +40,7 @@ function Link() {
                   borderRadius: "21px 21px 0 0",
                 }}
               >
-                <img>{Ozuna}</img>
+                <img src={Ozuna} className="img-new"></img>
               </div>
             </div>
           </div>
@@ -60,7 +61,9 @@ function Link() {
                   height: "300px",
                   borderRadius: "21px 21px 0 0",
                 }}
-              ></div>
+              >
+                <img src={Gilberto} className="img-new"></img>
+              </div>
             </div>
           </div>
         </div>
