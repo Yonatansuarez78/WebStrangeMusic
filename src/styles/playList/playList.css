@@ -2,3 +2,7 @@
     border-radius: 50%;
     width: 60%;
 }
+
+button {
+    font-family: 'Roboto', sans-serif;
+}

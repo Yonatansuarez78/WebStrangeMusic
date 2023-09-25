@@ -16,8 +16,8 @@ function Link() {
         {/* Contenido principal */}
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
           <div className="col-md-6 p-lg-5 mx-auto my-5">
-            <h1 className="display-3 fw-bold">Nuevos lanzamientos</h1>
-            <h3 className="fw-normal text-muted mb-3">
+            <h1 className="display-3 fw-bold font">Nuevos lanzamientos</h1>
+            <h3 className="fw-normal text-muted mb-3 font">
               En esta sesion encontraras nuevos ritmos musicales
             </h3>
           </div>
@@ -29,8 +29,8 @@ function Link() {
           <div className="col-md-6">
             <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
               <div className="my-3 py-3">
-                <h2 className="display-5">reggaeton</h2>
-                <p className="lead">El ritmo que mueve el mundo.</p>
+                <h2 className="display-5 font">reggaeton</h2>
+                <p className="lead font">El ritmo que mueve el mundo.</p>
               </div>
               <div
                 className="bg-body-tertiary shadow-sm mx-auto"
@@ -48,8 +48,8 @@ function Link() {
           <div className="col-md-6">
             <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
               <div className="my-3 py-3">
-                <h2 className="display-5">Salsa</h2>
-                <p className="lead">
+                <h2 className="display-5 font">Salsa</h2>
+                <p className="lead font">
                   Donde la salsa se convierte en un viaje de pasión y alegría a
                   través de la música.
                 </p>

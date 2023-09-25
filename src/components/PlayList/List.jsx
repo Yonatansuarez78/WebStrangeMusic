@@ -22,7 +22,7 @@ function List() {
                                         dy=".3em">BAD BUNNY<image src={badBunny} alt=""></image></text>
                                 </svg>
                                 <div class="card-body">
-                                    <p class="card-text">Benito Antonio Martínez Ocasio conocido como Bad Bunny en el mundo musical. destacado
+                                    <p class="card-text font">Benito Antonio Martínez Ocasio conocido como Bad Bunny en el mundo musical. destacado
                                         rapero, cantante y compositor de trap, R&B, rap y hip-hop en español. En 2016, Bad
                                         Bunny saltó a la fama con su tema debut "Diles."</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -73,7 +73,7 @@ function List() {
                                         dy=".3em">FEID <img src="../Img/img_canciones/Feid.webp" alt=""></img></text>
                                 </svg>
                                 <div class="card-body">
-                                    <p class="card-text">Salomón Villada Hoyos, mejor conocido como Feid o Ferxxo, es un
+                                    <p class="card-text font">Salomón Villada Hoyos, mejor conocido como Feid o Ferxxo, es un
                                         rapero y productor colombiano nacido el 19 de agosto del
                                         año 1992. Hoy en día es bastante reconocido en la cultura urbana y ha trabajado con
                                         numerosos artistas del medio.</p>
@@ -121,7 +121,7 @@ function List() {
                                             alt=""></img></text>
                                 </svg>
                                 <div class="card-body">
-                                    <p class="card-text">Ramón Luis Ayala Rodríguez es el nombre de pila del reconocido
+                                    <p class="card-text font">Ramón Luis Ayala Rodríguez es el nombre de pila del reconocido
                                         cantante Daddy Yankee. Nacido en San Juan, Puerto Rico,
                                         tuvo una infancia llena de música e instrumentos, lo que, sin duda, lo invitó a
                                         participar desde muy pequeño en este
