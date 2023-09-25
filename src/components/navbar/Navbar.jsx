@@ -20,16 +20,8 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link active text-white font" to="/link"><strong>Link</strong></NavLink>
                         </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle text-white font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <strong>Dropdown</strong>
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item font" href="#">Action</a></li>
-                                <li><a className="dropdown-item font" href="#">Another action</a></li>
-                                <li><hr className="dropdown-divider"></hr></li>
-                                <li><a className="dropdown-item font" href="#">Something else here</a></li>
-                            </ul>
+                        <li className="nav-item">
+                            <NavLink className="nav-link active text-white font" to="/update"><strong>Update</strong></NavLink>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
